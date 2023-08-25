@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap");
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(350px , 1fr));
+    gap: 40px;
+    max-width: 1350px;
+    margin: 0 auto;
+   padding-inline: 20px;
+}
+.card-element{
+    margin-top: 30px;
+}
+.capital{
+    font-weight: 500;
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    font-family: "jost", "sanserif";
+}
+
+.value{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "jost", "sanserif";
+    text-transform: capitalize;
+}
+.country-img{
+    width: 400px;
+    height: 200px;
+}
+.link{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "jost", "sanserif";
+    text-transform: capitalize;
+}
+.nav{
+    max-width: 1300px;
+    margin: 0 auto;
+}
