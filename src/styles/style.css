@@ -38,3 +38,9 @@
     max-width: 1300px;
     margin: 0 auto;
 }
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

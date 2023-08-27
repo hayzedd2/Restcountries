@@ -14,7 +14,7 @@ const Asia = ({ Asia }) => {
   });
   return (
     <>
-      <Navbar countries={Asia}/>
+      <Navbar countries={AfricaArray}/>
       <div className="country-container">
         {AfricaArray.map((country, index) => {
           return (
@@ -61,7 +61,7 @@ const Asia = ({ Asia }) => {
                 <CardFooter>
                   <ButtonGroup spacing="2">
                     <Button variant="solid" colorScheme="blue">
-                      View More Details
+                    <a href={`/country/${country.name.common}`}>View More Details</a>
                     </Button>
                   </ButtonGroup>
                 </CardFooter>

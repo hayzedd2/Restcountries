@@ -70,9 +70,8 @@ export default function Country({ countries }) {
                     <Button
                       variant="solid"
                       colorScheme="blue"
-                      onClick={(e) => Detail(e, country)}
                     >
-                      View More Details
+                     <a href={`/country/${country.name.common}`}>View More Details</a>
                     </Button>
                   </ButtonGroup>
                 </CardFooter>
