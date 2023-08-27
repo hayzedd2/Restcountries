@@ -81,10 +81,7 @@ function CountryDetail({ countries }) {
                   <span className="capital">Sub Region</span> :{" "}
                   <span className="value">{country.subregion}</span>
                 </Text>
-                <Text>
-                  <span className="capital">Borders</span> :{" "}
-                  <span className="value" style={{textTransform : "uppercase"}}>{country.borders[0]} , {country.borders[1]} , {country.borders[2]}</span>
-                </Text>
+               
                 <Text>
                   <span className="capital">Timezones</span> :{" "}
                   <span className="value">{country.timezones[0]}</span>
