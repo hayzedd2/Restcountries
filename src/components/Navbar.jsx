@@ -72,6 +72,7 @@ function Navbar({ countries }) {
           </BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
+      <div style={{paddingInline : "20px"}}>
       <InputGroup size="md" style={{ marginBlock: "20px"}}>
         <Input
           type="text"
@@ -87,6 +88,7 @@ function Navbar({ countries }) {
           />
         </InputRightElement>
       </InputGroup>
+      </div>
 
       {/* SHOW SEARCH RESULT */}
       {search !== "" ? (
