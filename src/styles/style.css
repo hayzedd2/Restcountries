@@ -38,6 +38,10 @@
     max-width: 1300px;
     margin: 0 auto;
 }
+.country-detail-img{
+    width: 600px;
+    height: 250px;
+}
 .error{
     height: 100vh;
     display: flex;
