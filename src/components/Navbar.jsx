@@ -72,10 +72,9 @@ function Navbar({ countries }) {
           </BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
-      <InputGroup size="md" style={{ marginBlock: "20px" }}>
+      <InputGroup size="md" style={{ marginBlock: "20px"}}>
         <Input
           type="text"
-          style={{ paddingBlock: "20px" }}
           placeholder="Enter Search"
           onChange={handleChange }
           value={search}
@@ -92,10 +91,12 @@ function Navbar({ countries }) {
       {/* SHOW SEARCH RESULT */}
       {search !== "" ? (
         results.length > 0 ? (
-          <div>
-            <h4 className="text-center m-2">
+          <div >
+           <div style={{display : "flex", alignItems : "center" , justifyContent : "center"}}>
+           <h4 className="searchresult">
               {results.length} Search results found
             </h4>
+           </div>
             <div className="country-container">
               {results.map((country , index) => (
                 <div key={index} className="card-element">
@@ -151,7 +152,9 @@ function Navbar({ countries }) {
             </div>
           </div>
         ) : (
-          <h4 className="text-center m-2">No results found</h4>
+          <div style={{display : "flex", alignItems : "center" , justifyContent : "center"}}>
+          <h4 className="searchresult">No results found</h4>
+          </div>
         )
       ) : null}
     </div>
