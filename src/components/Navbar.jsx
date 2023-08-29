@@ -72,7 +72,7 @@ function Navbar({ countries }) {
           </BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
-      <div style={{paddingInline : "20px"}}>
+      <div>
       <InputGroup size="md" style={{ marginBlock: "20px"}}>
         <Input
           type="text"
